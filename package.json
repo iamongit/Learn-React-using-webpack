@@ -1,27 +1,28 @@
 {
-  "name": "tryWebapp",
-  "version": "1.0.0",
-  "description": "",
+  "author": "",
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "express": "^4.14.1",
+    "history": "^1.13.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^1.0.1",
+    "reactfire": "^0.5.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.0"
+  },
+  "description": "My Project",
+  "keywords": [],
+  "license": "ISC",
   "main": "index.js",
+  "name": "my-project",
   "scripts": {
+    "compile": "webpack",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iamongit/tryWebapp.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iamongit/tryWebapp/issues"
-  },
-  "homepage": "https://github.com/iamongit/tryWebapp#readme",
-  "dependencies": {
-    "babel-core": "^6.24.0",
-    "babel-loader": "^6.4.1",
-    "babel-preset-latest": "^6.24.0",
-    "babel-preset-react": "^6.23.0",
-    "webpack": "^2.3.2"
-  }
+  "version": "1.0.0"
 }
